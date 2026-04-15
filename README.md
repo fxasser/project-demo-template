@@ -20,5 +20,9 @@ Template repo for building public project demo frontends using **Pico.css** + va
 ## Notes
 Designed to pair with a privately hosted backend API so you can demo projects without exposing private/course code.
 
+## Configuration
+1. Copy `public/js/config.example.js` to `public/js/config.js`
+2. Edit `public/js/config.js` and set `API_BASE` to backend URL
+
 ## Attribution
 - UI styling uses [Pico.css](https://picocss.com/) (loaded via CDN).
